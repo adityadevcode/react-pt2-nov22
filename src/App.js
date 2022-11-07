@@ -1,8 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
-import Test from './Components/Test'
-import Useeffectusestate from './Components/Useeffectusestate';
-
+import Test from './Components/Test';
+import React, {useEffect, useState} from 'react';
 
 
 function App() {
@@ -10,7 +9,6 @@ function App() {
     <div>
     <h3>welcome</h3>
     <Test/>
-    <Useeffectusestate />
     </div>
   );
 }
